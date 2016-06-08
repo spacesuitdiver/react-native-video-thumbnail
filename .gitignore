@@ -1,7 +1,7 @@
 node_modules/**/*
 build
-RNMPRemoteCommandCenter.xcodeproj/xcuserdata/**/*
-RNMPRemoteCommandCenter.xcodeproj/project.xcworkspace/**/*
+**/*.xcodeproj/xcuserdata/**/*
+**/*.xcodeproj/project.xcworkspace/**/*
 .idea
 .gradle/
 gradlew
