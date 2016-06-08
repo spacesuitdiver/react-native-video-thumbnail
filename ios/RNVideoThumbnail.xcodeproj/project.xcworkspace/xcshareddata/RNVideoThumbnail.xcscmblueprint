@@ -1,0 +1,39 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "39E11E4D659D4DBBD2A704131D98899B8E38ED1B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c4a520e6-e2eb-43b1-bc5c-90f107ee77be++7966" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "c4a520e6-e2eb-43b1-bc5c-90f107ee77be++7966" : 0,
+    "39E11E4D659D4DBBD2A704131D98899B8E38ED1B" : 0,
+    "FD544CED4FF55F79F1809A0942A372673E7264FB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B9C74593-1664-4223-B12F-54A5C4166B81",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "c4a520e6-e2eb-43b1-bc5c-90f107ee77be++7966" : "",
+    "39E11E4D659D4DBBD2A704131D98899B8E38ED1B" : "react-native-video-thumbnail\/",
+    "FD544CED4FF55F79F1809A0942A372673E7264FB" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RNVideoThumbnail",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/RNVideoThumbnail.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LeBlaaanc\/react-native-mpremotecommandcenter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "39E11E4D659D4DBBD2A704131D98899B8E38ED1B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:buzznog\/catalyst-mobileapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD544CED4FF55F79F1809A0942A372673E7264FB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/chris.leblanc@beirut.elementn.com\/svn\/services",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c4a520e6-e2eb-43b1-bc5c-90f107ee77be++7966"
+    }
+  ]
+}

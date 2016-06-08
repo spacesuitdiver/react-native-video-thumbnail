@@ -1,0 +1,15 @@
+{
+  "name": "react-native-video-thumbnail",
+  "version": "1.0.0",
+  "description": "Create a thumnail from a video url.",
+  "main": "index",
+  "author": {
+    "name": "Chris LeBlanc",
+    "email": "chris@leblaaanc.com",
+    "url": "https://github.com/LeBlaaanc/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:leblaaanc/react-native-video-thumbnail.git"
+  }
+}
