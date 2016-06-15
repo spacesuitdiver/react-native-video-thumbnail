@@ -1,6 +1,6 @@
 {
   "name": "react-native-video-thumbnail",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a thumnail from a video url.",
   "main": "index",
   "author": {
