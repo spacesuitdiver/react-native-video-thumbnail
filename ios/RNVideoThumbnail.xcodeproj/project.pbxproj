@@ -208,8 +208,8 @@
 				EXECUTABLE_PREFIX = lib;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../React/**",
-					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNVideoThumbnail;
@@ -223,8 +223,8 @@
 				EXECUTABLE_PREFIX = lib;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../React/**",
-					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNVideoThumbnail;

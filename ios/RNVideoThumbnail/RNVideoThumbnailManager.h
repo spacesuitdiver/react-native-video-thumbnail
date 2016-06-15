@@ -7,7 +7,11 @@
 //
 
 #import "RCTBridge.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface RNVideoThumbnailManager : NSObject <RCTBridgeModule>
+
+
+@property (retain) UIImage *thumbnail;
 
 @end

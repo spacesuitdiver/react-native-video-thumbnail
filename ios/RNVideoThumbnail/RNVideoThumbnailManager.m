@@ -18,26 +18,24 @@ RCT_EXPORT_MODULE();
 // public api
 
 
-RCT_EXPORT_METHOD(getThumbnail:(NSString *)url)
+RCT_EXPORT_METHOD(getThumbnail:(NSString *)path)
 {
-    AVURLAsset *asset=[[AVURLAsset alloc] initWithURL:self.url options:nil];
-    AVAssetImageGenerator *generator = [[AVAssetImageGenerator alloc] initWithAsset:asset];
-    generator.appliesPreferredTrackTransform=TRUE;
-    [asset release];
-    CMTime thumbTime = CMTimeMakeWithSeconds(0,30);
+    NSURL *url = [NSURL fileURLWithPath:path];
+
+    AVAsset *asset = [AVAsset assetWithURL:url];
+    AVAssetImageGenerator *imageGenerator = [[AVAssetImageGenerator alloc] initWithAsset:asset];
+    imageGenerator.appliesPreferredTrackTransform=TRUE;
+    CMTime time = CMTimeMakeWithSeconds(0,30);
     
     AVAssetImageGeneratorCompletionHandler handler = ^(CMTime requestedTime, CGImageRef im, CMTime actualTime, AVAssetImageGeneratorResult result, NSError *error){
         if (result != AVAssetImageGeneratorSucceeded) {
             NSLog(@"couldn't generate thumbnail, error:%@", error);
         }
-        [button setImage:[UIImage imageWithCGImage:im] forState:UIControlStateNormal];
-        thumbImg=[[UIImage imageWithCGImage:im] retain];
-        [generator release];
+
+        UIImage *thumbnail=[UIImage imageWithCGImage:im];
     };
     
-    CGSize maxSize = CGSizeMake(320, 180);
-    generator.maximumSize = maxSize;
-    [generator generateCGImagesAsynchronouslyForTimes:[NSArray arrayWithObject:[NSValue valueWithCMTime:thumbTime]] completionHandler:handler];
+    return thumbnail;
     
 }
 
